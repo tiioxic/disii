@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #171810;
+}
+
+ul {
+    margin: 33vw auto;
+    /* width: 80%;  */
+}
+
+ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+    width: 33.33%;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none; 
+}
+
+ul li a .fa-brands{
+font-size: 12vw;
+transition: .2s;     
+}
+
+ul li a .text{
+    opacity: 0;
+    transition: 2s;
+    transform: translateY(4vw);
+    
+}
+
+ul li:hover .fa-brands{
+transform: translateY(4vw) scale(.5);
+}
+
+ul li:hover .text{
+    opacity: 1; 
+    transform: translateY(-7vw);
+}

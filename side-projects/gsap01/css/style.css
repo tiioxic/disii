@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-color: #252525;
+}
+.box{
+    background-color: #3ca745;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    display: block;
+
+}
